@@ -1,0 +1,118 @@
+.title-register{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    margin: auto;
+    border-radius: 10px;
+    height: auto;
+    width: 70%;
+    /*width: 98%;*/
+    padding: 5px 10px;
+    text-align: center;
+}
+.body-register{
+    margin: auto;
+    border-radius: 10px;
+    height: auto;
+    width: 70%;
+    /*width: 98%;*/
+    padding: 5px 10px;
+    text-align: center;
+}
+.body-register-left{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.texto-body-register-left{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+.form-body-register-rigth{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+}
+.title-form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+}
+.container-input #emailHelp{
+    text-align: right;
+    font-size: 0.6rem;
+}
+
+@media (max-width: 576px) {
+    .title-register{
+        width: 93%;
+    }
+    .body-register{
+        width: 93%;
+    }
+}
+
+.disabled{
+    color: rgb(78, 88, 97);
+}
+.enable{
+    color: white;
+}
+.container-input{
+    position: relative;
+    width: 100%;
+}
+.container-input input{
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    padding: 10px 0 5px;
+    border-bottom: 2px solid white;
+}
+.container-input span i{
+    margin: 0 1px;
+}
+.container-input span{
+    position: absolute;
+    left: 0;
+    padding: 10px 0 5px;
+    color: rgb(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    pointer-events: none;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    font-size: 0.7em;
+}
+.container-input input:focus ~ span,
+.container-input input:valid ~ span{
+    color: white;
+    transform: translateY(-18px);
+    font-size: 0.5em;
+}
+.container-input b{
+    text-align: center;
+    position: absolute;
+    right: 0;
+    padding: 5px 0 0 0;
+}
+.container-input b input[type=checkbox]{
+    text-align: center;
+    position: absolute;
+    right: 0;
+    padding: 5px 0 0 0;
+}
+.container-input b label{
+    font-size: 0.6em;
+    position: absolute;
+    right: 0;
+    padding: 8px 3px 0 0;
+}
+.input-password{
+    padding-right: 20px 3px 0 0 ;
+}

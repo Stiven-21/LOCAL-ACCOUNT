@@ -1,0 +1,123 @@
+/*MENU*/
+.col-barra-profile{
+    height: calc(100vh - 6.8rem);
+}
+.barra-profile{
+    border-radius: 17px;
+    padding: 10px;
+}
+.title-barra-profile{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.container-barra-profile{
+    margin-top: 3rem;
+}
+.container-barra-profile a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 1rem;
+    margin: 5px 0px;
+    position: relative;
+}
+.active-profile{
+    background: black;
+    border-radius: 10px;
+}
+.active-profile span,
+.container-barra-profile a span{
+    text-align: center;
+    top: 8px;
+    left: .7rem;
+    position: absolute;
+    background: red;
+    width: .6rem;
+    height: .6rem;
+    z-index: 2;
+    border-radius: .6rem;
+    font-size: .4rem;
+}
+
+/*INFORMACION*/
+.col-profile{
+    height: auto;
+}
+.target-profile-user{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin: auto;
+    border-radius: 10px;
+    height: auto;
+    min-height: 20rem;
+}
+.title-user-profile{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 0px;
+    border-bottom: 2px solid black;
+}
+.image-user-profile{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.image-user-profile img{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+.info-user-profile{
+    padding: 10px 2px 10px 20px;
+}
+.footer-user-profile{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 0px;
+    border-top: 2px solid black;
+}
+.info-user-profile div{
+    padding: 5px 0px;
+}
+.target-icome-profile{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.target-expense-profile{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+/*768 cambiar tamaños*/
+@media (max-width: 768px){
+    .col-barra-profile{
+        height: 4rem;
+        margin-bottom: 1rem;
+    }
+    .title-barra-profile{
+       display: none;
+    }
+    .container-barra-profile{
+        text-align: center;
+        margin-top: auto;
+    }
+    .container-barra-profile a{
+        display: inline-block;
+        padding: 10px 1rem;
+        margin: auto;
+    }
+
+}
+@media (max-width: 646px){
+    .text-hidden-profile{
+        display: none;
+    }
+}
+
+@media (max-width: 308px){
+    /*PONER SCROLL EN EL MENU*/
+}
